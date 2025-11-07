@@ -19,7 +19,7 @@ func main() {
 		bot.WithDefaultHandler(handler),
 	}
 
-	b, err := bot.New("8277461410:AAGCX8jsuimBCSdmFT2qY5O7DQXXbB1fVgY", opts...)
+	b, err := bot.New("bot_token", opts...)
 	if err != nil {
 		panic(err)
 	}
